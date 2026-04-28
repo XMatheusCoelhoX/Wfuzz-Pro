@@ -1,0 +1,8 @@
+# Scan padrão de XSS em uma lista de sites
+./xfuzz-pro.sh -f alvos.txt
+
+# Scan focado em SQL Injection
+./xfuzz-pro.sh -f alvos.txt -t sqli
+
+# Usando uma wordlist específica
+./xfuzz-pro.sh -f alvos.txt -w /path/to/wordlist.txt

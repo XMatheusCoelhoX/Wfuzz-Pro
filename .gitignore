@@ -1,0 +1,6 @@
+*.log
+fuzz_results_*
+.DS_Store
+.vscode/
+*~
+*.swp
